@@ -1,0 +1,230 @@
+@import "responsive-elementos.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font: lighter;
+    vertical-align: baseline;
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap');
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #000000;
+}
+
+.pai{
+   
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+header section{
+    background-color: #fca311;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    border-radius: 50px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 9px 6px rgba(0,0,0,0.15);
+}
+
+header .logo{
+    background-color: #fca311;
+    border-radius: 100%;
+    position: relative;
+    left: -15%;
+}
+
+header .logo:hover{
+    transform: scale(1.01);
+    filter: grayscale(0%);
+}
+
+header nav ul{
+    margin-left:-50px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     
+}
+
+header nav ul > li{
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.1s ease;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0px 9px 24px -10px rgba(0,0,0,0.3);
+}
+
+header nav ul > li:hover{
+    transform: scale(1.01);
+    background-color: #fca311;
+    padding: 8px 8px;
+    border-radius:25px ;
+}
+
+header nav ul > li a{ 
+    color: #000000;
+   
+}
+
+
+.row{
+    display: flex;
+    align-items:center ;
+}
+
+.row article{
+   display: inline-block;
+   justify-content: center;
+}
+
+.row article h1{
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 100%;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    filter: grayscale(0%);
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 0px 0px 20px 90px;
+}
+
+.row article h1:hover{
+    transform: scale(1.01);
+    filter: grayscale(0%);
+    color: #fca311;
+    
+}
+
+.row article h2{
+    color: #ffffff;
+    width: 500px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin: 0px 0px 0px 90px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.row article p{
+    color: #ffffff;
+    font-size: 16px;
+    text-align: justify;
+    width: 400px;
+    margin: 0px auto;
+    line-height: 150%;
+}
+
+.row article button{
+    margin: 15px 0px 15px 0px;
+    margin: 20px 0px 0px 90px;
+}
+
+.row article button .btn{
+    background-color: #fca311;
+    padding: 9px 20px 9px 20px;
+    margin: 20px 0px 20px 0px;
+    box-shadow: 3px -3px 24px -10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 16px;
+    filter: grayscale(0%);
+    transition: 0.5s ease;
+    cursor: pointer;
+    
+}
+
+.row article button:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+    
+}
+
+.row .ilus{
+    margin-top: 100px;
+    width: 750px;
+    position: relative;
+    right: 5%;
+    filter: grayscale(0%);
+    scale: 0.1;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.row .ilus:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+.row2 > div{
+    background-color: #fca311;
+    width: 400px;
+    height: 200px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    filter: grayscale(0%);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.row2 div > a{
+  color: #000000;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.row2 #html:hover{
+    transform: scale(1.2);
+    filter: grayscale(0%);
+    background-color: #ff4d00;
+}
+
+.row2 #css:hover{
+    transform: scale(1.2);
+    filter: grayscale(0%);
+    background-color: #007bff;
+}
+
+.row2 #js:hover{
+    transform: scale(1.2);
+    filter: grayscale(0%);
+    background-color: #FFFF00;
+}
+
