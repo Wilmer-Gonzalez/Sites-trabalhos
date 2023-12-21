@@ -21,7 +21,7 @@ body{
 
 .pai{
    
-    width: 1280px;
+    width: 1024px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@ header section{
 
 header .logo{
     position: relative;
-    left: -15%;
+    left: -19%;
 }
 
 header .logo:hover{
@@ -91,9 +91,10 @@ header nav ul > li a{
 }
 
 .row article{
-   display: inline-block;
+   display: flex;
    justify-content: center;
-   margin-top: 200px;
+   flex-direction: column;
+   margin-top: 150px;
 }
 
 .row article > h1{
@@ -121,44 +122,5 @@ header nav ul > li a{
     line-height: 150%;
 }
 
-.row article button{
-    margin: 15px 0px 15px 0px;
-    margin: 20px 0px 0px 90px;
-}
 
-.row article button .btn{
-    background-color: #fca311;
-    padding: 9px 20px 9px 20px;
-    margin: 20px 0px 20px 0px;
-    box-shadow: 3px -3px 24px -10px rgba(0,0,0,0.3);
-    border-radius: 10px;
-    color: #000000;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 16px;
-    filter: grayscale(0%);
-    transition: 0.5s ease;
-    cursor: pointer;
-    
-}
 
-.row article button:hover{
-    transform: scale(1.1);
-    filter: grayscale(0%);
-    
-}
-
-.row .ilus{
-    width: 750px;
-    position: relative;
-    right: 5%;
-    filter: grayscale(0%);
-    scale: 0.1;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-
-.row .ilus:hover{
-    transform: scale(1.1);
-    filter: grayscale(0%);
-}

@@ -20,7 +20,7 @@ body{
 
 .pai{
    
-    width: 1280px;
+    width: 1024px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ body{
 
 .row2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -55,6 +55,7 @@ header .logo{
     border-radius: 100%;
     position: relative;
     left: -15%;
+    top: -1%;
 }
 
 header .logo:hover{
@@ -62,12 +63,17 @@ header .logo:hover{
     filter: grayscale(0%);
 }
 
+header nav{
+    position: relative;
+    top:-3% ;
+    right: 1%;
+}
+
 header nav ul{
     margin-left:-50px ;
     display: flex;
     flex-direction: row;
-    align-items: center;
-     
+    align-items: center;  
 }
 
 header nav ul > li{
@@ -90,8 +96,7 @@ header nav ul > li:hover{
 }
 
 header nav ul > li a{ 
-    color: #000000;
-   
+    color: #000000; 
 }
 
 
@@ -101,6 +106,7 @@ header nav ul > li a{
 }
 
 .row article{
+    margin: 0px 0px 0px 0px;
    display: inline-block;
    justify-content: center;
 }
@@ -122,8 +128,7 @@ header nav ul > li a{
 .row article h1:hover{
     transform: scale(1.01);
     filter: grayscale(0%);
-    color: #fca311;
-    
+    color: #fca311; 
 }
 
 .row article h2{
@@ -147,50 +152,7 @@ header nav ul > li a{
     line-height: 150%;
 }
 
-.row article button{
-    margin: 15px 0px 15px 0px;
-    margin: 20px 0px 0px 90px;
-}
-
-.row article button .btn{
-    background-color: #fca311;
-    padding: 9px 20px 9px 20px;
-    margin: 20px 0px 20px 0px;
-    box-shadow: 3px -3px 24px -10px rgba(0,0,0,0.3);
-    border-radius: 10px;
-    color: #000000;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 16px;
-    filter: grayscale(0%);
-    transition: 0.5s ease;
-    cursor: pointer;
-    
-}
-
-.row article button:hover{
-    transform: scale(1.1);
-    filter: grayscale(0%);
-    
-}
-
-.row .ilus{
-    margin-top: 100px;
-    width: 750px;
-    position: relative;
-    right: 5%;
-    filter: grayscale(0%);
-    scale: 0.1;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-
-.row .ilus:hover{
-    transform: scale(1.1);
-    filter: grayscale(0%);
-}
-
-.row2 > div{
+.row .row2 > div{
     background-color: #fca311;
     width: 400px;
     height: 200px;
@@ -202,27 +164,28 @@ header nav ul > li a{
     filter: grayscale(0%);
     transition: 0.5s ease;
     cursor: pointer;
+    margin-top: 150px;
 }
 
-.row2 div > a{
+.row .row2 div > a{
   color: #000000;
   font-size: 2em;
   font-weight: bold;
 }
 
-.row2 #html:hover{
+.row .row2 #html:hover{
     transform: scale(1.2);
     filter: grayscale(0%);
     background-color: #ff4d00;
 }
 
-.row2 #css:hover{
+.row .row2 #css:hover{
     transform: scale(1.2);
     filter: grayscale(0%);
     background-color: #007bff;
 }
 
-.row2 #js:hover{
+.row .row2 #js:hover{
     transform: scale(1.2);
     filter: grayscale(0%);
     background-color: #FFFF00;

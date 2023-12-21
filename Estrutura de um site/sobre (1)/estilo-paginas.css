@@ -46,7 +46,7 @@ header section{
 }
 
 header .logo{
-        background-color: #fca311;
+    background-color: #fca311;
     border-radius: 100%;
     position: relative;
     left: -19%;
@@ -62,7 +62,6 @@ header nav ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-     
 }
 
 header nav ul > li{
@@ -87,9 +86,7 @@ header nav ul > li:hover{
 
 header nav ul > li a{ 
     color: #000000;
-   
 }
-
 
 .row{
     display: flex;
@@ -120,8 +117,7 @@ header nav ul > li a{
 .row article h1:hover{
     transform: scale(1.01);
     filter: grayscale(0%);
-    color: #fca311;
-    
+    color: #fca311; 
 }
 
 

@@ -20,8 +20,7 @@ body{
 }
 
 .pai{
-    background-color: #000000;
-    width: 1280px;
+    width: 1024px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -59,7 +58,6 @@ header nav ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-     
 }
 
 header nav ul > li{
@@ -82,8 +80,7 @@ header nav ul > li:hover{
 }
 
 header nav ul > li a{ 
-    color: #000000;
-   
+    color: #000000; 
 }
 
 
@@ -117,8 +114,7 @@ header nav ul > li a{
 .row article h1:hover{
     transform: scale(1.01);
     filter: grayscale(0%);
-    color: #fca311;
-    
+    color: #fca311;  
 }
 
 .row article > div{
@@ -141,7 +137,7 @@ header nav ul > li a{
 .row .ilus{
     width: 750px;
     position: relative;
-    right: -5%;
+    right: 8%;
     filter: grayscale(0%);
     scale: 0.1;
     transition: 0.5s ease;
